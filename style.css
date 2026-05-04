@@ -1,0 +1,145 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* En-tête */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 20px;
+    text-align: center;
+    flex: 1;
+}
+
+header img {
+    height: 60px;
+    background: white;
+    padding: 3px;
+}
+
+/* Navigation */
+nav {
+    background-color: #34495e;
+    padding: 8px 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a.quitter {
+    color: #e74c3c;
+    float: right;
+}
+
+/* Contenu */
+main {
+    padding: 20px 30px;
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+/* Tableaux */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 10px;
+}
+
+table th {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+table td {
+    padding: 8px 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:hover {
+    background-color: #f0f0f0;
+}
+
+/* Formulaires */
+fieldset {
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: white;
+    max-width: 480px;
+}
+
+legend {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select {
+    padding: 6px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    background-color: #2c3e50;
+    color: white;
+    padding: 7px 18px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="reset"] {
+    background-color: #aaa;
+    color: white;
+    padding: 7px 18px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Messages */
+.message-erreur { color: red; font-weight: bold; }
+.message-succes { color: green; font-weight: bold; }
+
+/* Accueil */
+.accueil-contenu {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn-accueil {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 8px;
+    background-color: #2c3e50;
+    color: white;
+    text-decoration: none;
+}
